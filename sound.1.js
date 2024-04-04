@@ -1,8 +1,9 @@
-// function sound() {  
-//     const audio = new Audio('key_press.mp3');
-//     audio.play();
- let fg = Math.floor(Math.random() * 100 + 1)
-// }
+function sound() {  
+    const audio = new Audio('key_press.mp3');
+    audio.play();
+}
+ let fg = Math.floor(Math.random() * 10 + 1)
+
 
 function a(){
     let input = document.getElementById('a').value;
